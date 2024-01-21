@@ -169,7 +169,7 @@ input:focus {
   position: absolute;
   left: 0;
   top: 4px;
-  background-image: url(img/search.svg);
+  background-image: url(../img/search.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 13px;
