@@ -857,7 +857,6 @@ input:focus {
 .modal__body {
   position: relative;
   flex-basis: 765px;
-  min-height: 356px;
   margin: auto;
   background-color: var(--white);
   border-radius: 1px;
@@ -903,9 +902,7 @@ input:focus {
 .modal-filter-input {
   position: relative;
   display: flex;
-  /* flex-direction: column; */
   margin-bottom: 19px;
-  /* width: 100%; */
   gap: 19px;
 }
 
@@ -954,6 +951,7 @@ input:focus {
   padding: 14px 76px;
   border-radius: 1px;
   background-color: var(--coral);
+  font-size: 16px;
   color: var(--white);
   text-transform: uppercase;
   transition: background-color .3s ease-in-out;
@@ -1303,6 +1301,7 @@ input:focus {
 
   .modal__body {
     flex-basis: 680px;
+    min-height: 356px;
   }
 
   .card-mobil {
